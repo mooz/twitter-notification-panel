@@ -1,0 +1,10 @@
+{
+  "name": "twitter-notificaiton-panel",
+  "title": "Twitter Notification Panel",
+  "id": "jid1-Evn2gwxUIPVgCA",
+  "icon": "data/icon-64.png",
+  "description": "Allows users to check notifications of Twitter from a panel interface.",
+  "author": "mooz",
+  "license": "MPL 2.0",
+  "version": "0.1"
+}

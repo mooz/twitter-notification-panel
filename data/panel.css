@@ -1,0 +1,17 @@
+.topbar, .dashboard, #content-main-heading {
+    display: none !important;
+}
+
+#page-container {
+    padding: 0px !important;
+    width: 100% !important;
+}
+
+#timeline {
+    margin: 0px;
+    width: 100%;
+}
+
+#timeline, #timeline .content-header, #timeline .head-inner {
+    border-radius: 0px !important;
+}
