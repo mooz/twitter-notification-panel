@@ -1,5 +1,15 @@
-self.port.on("reload-request", function () {
-  window.location.reload();
+function reloadPage(url) {
+  window.location.href = url;
+}
+
+self.port.on("reload-request", function (url) {
+  reloadPage(url);
+});
+
+self.port.on("ensure-page-url", function (url) {
+  if (window.location.href !== url) {
+    reloadPage(url);
+  }
 });
 
 // Monitor title changes
